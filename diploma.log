@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.5)  6 MAY 2020 03:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.5)  6 MAY 2020 16:07
 entering extended mode
 **./diploma.tex
 (diploma.tex
@@ -905,11 +905,11 @@ LaTeX Font Info:    ... okay on input line 39.
 * \textheight=681.15898pt
 * \oddsidemargin=13.08827pt
 * \evensidemargin=13.08827pt
-* \topmargin=-15.36449pt
-* \headheight=0.0pt
-* \headsep=0.0pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
 * \topskip=10.0pt
-* \footskip=0.0pt
+* \footskip=30.0pt
 * \marginparwidth=65.0pt
 * \marginparsep=11.0pt
 * \columnsep=10.0pt
@@ -1008,10 +1008,10 @@ Package logreq Info: Writing requests to 'diploma.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 14519 strings out of 480930
- 247232 string characters out of 2898824
- 947355 words of memory out of 3000000
- 30136 multiletter control sequences out of 15000+200000
+ 14520 strings out of 480930
+ 247245 string characters out of 2898824
+ 947312 words of memory out of 3000000
+ 30137 multiletter control sequences out of 15000+200000
  549325 words of font info for 64 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,16n,40p,1483b,1691s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1039,9 +1039,9 @@ ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/meDaddy/AppData
 /Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/
 meDaddy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.
 pfb>
-Output written on diploma.pdf (8 pages, 218807 bytes).
+Output written on diploma.pdf (8 pages, 220625 bytes).
 PDF statistics:
- 470 PDF objects out of 1000 (max. 8388607)
+ 474 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
