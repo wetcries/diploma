@@ -1,0 +1,17 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'diploma.blg'
+[139] biber-MSWIN64:322> INFO - === 
+[166] Biber.pm:415> INFO - Reading 'diploma.bcf'
+[355] Biber.pm:943> INFO - Found 9 citekeys in bib section 0
+[380] Biber.pm:4256> INFO - Processing section 0
+[381] Utils.pm:75> INFO - Globbing data source 'books.bib'
+[408] Utils.pm:91> INFO - Globbed data source 'books.bib' to books.bib
+[437] Biber.pm:4455> INFO - Looking for bibtex format file 'books.bib' for section 0
+[443] bibtex.pm:1653> INFO - LaTeX decoding ...
+[514] bibtex.pm:1471> INFO - Found BibTeX data source 'books.bib'
+[600] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[600] UCollate.pm:68> INFO - Overriding locale 'ru-RU' defaults 'variable = shifted' with 'variable = non-ignorable'
+[600] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'ru-RU'
+[600] Biber.pm:4090> INFO - No sort tailoring available for locale 'ru-RU'
+[613] bbl.pm:652> INFO - Writing 'diploma.bbl' with encoding 'UTF-8'
+[618] bbl.pm:755> INFO - Output to diploma.bbl

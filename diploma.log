@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.5)  6 MAY 2020 16:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.5)  10 MAY 2020 01:46
 entering extended mode
 **./diploma.tex
 (diploma.tex
@@ -22,6 +22,19 @@ File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
 )
+("C:\Users\meDaddy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/extsizes\extsize
+s.sty"
+Package: extsizes 1996/10/08 v1.0 Non Standard LaTeX Package
+
+
+Package ExtSizes Warning: It is better to use one of the extsizes classes,
+ if you can.
+
+
+("C:\Users\meDaddy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/extsizes\size14.
+clo"
+File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+))
 ("C:\Users\meDaddy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/physics\physics.
 sty"
 Package: physics 
@@ -147,6 +160,10 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 
 ("C:\Users\meDaddy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometr
 y.cfg"))
+("C:\Users\meDaddy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\indentfirs
+t.sty"
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
 ("C:\Users\meDaddy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amsfont
 s.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
@@ -214,8 +231,13 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
 Package: icomma 2002/03/10 v2.0 (WaS)
 ) ("C:\Users\meDaddy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cmap\cmap.sty"
 Package: cmap 2008/03/06 v1.0h CMap support: searchable PDF
-) ("C:\Users\meDaddy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc.s
-ty"
+) ("C:\Users\meDaddy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/t2\mathtext.st
+y"
+Package: mathtext 2018/04/13 v1.1 transparent text-and-math defs
+LaTeX Info: Redefining \halign on input line 119.
+)
+("C:\Users\meDaddy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc.sty
+"
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
 
 ("C:\Users\meDaddy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cyrillic\t2aenc.
@@ -422,7 +444,9 @@ File: t2aenc.dfu 2019/11/14 v1.2k UTF-8 support for inputenc
    defining Unicode char U+FB04 (decimal 64260)
    defining Unicode char U+FB05 (decimal 64261)
    defining Unicode char U+FB06 (decimal 64262)
-))
+)
+\symT2Aletters=\mathgroup7
+)
 LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 1
 12.
 
@@ -864,30 +888,25 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'russian'.
-
-
-LaTeX Warning: Unused global option(s):
-    [14pt,eqno,fontsize=14pt].
-
-(diploma.aux)
+ (diploma.aux)
 \openout1 = `diploma.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -905,15 +924,15 @@ LaTeX Font Info:    ... okay on input line 39.
 * \textheight=681.15898pt
 * \oddsidemargin=13.08827pt
 * \evensidemargin=13.08827pt
-* \topmargin=-52.36449pt
-* \headheight=12.0pt
+* \topmargin=-54.36449pt
+* \headheight=14.0pt
 * \headsep=25.0pt
-* \topskip=10.0pt
+* \topskip=14.0pt
 * \footskip=30.0pt
-* \marginparwidth=65.0pt
-* \marginparsep=11.0pt
+* \marginparwidth=24.0pt
+* \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=12.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -965,32 +984,36 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = `diploma.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'diploma.bbl' not found.
-
-No file diploma.bbl.
-Package biblatex Info: Reference section=0 on input line 39.
-Package biblatex Info: Reference segment=0 on input line 39.
+Package biblatex Info: ... file 'diploma.bbl' found.
+ (diploma.bbl)
+Package biblatex Info: Reference section=0 on input line 48.
+Package biblatex Info: Reference segment=0 on input line 48.
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 89
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 76
 .
 
 ("C:\Users\meDaddy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 89.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 76.
 
 
 ("C:\Users\meDaddy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd
 "
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 89.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 76.
 
 
 ("C:\Users\meDaddy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd
 "
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+
+LaTeX Font Warning: Font shape `T2A/cmr/m/up' undefined
+(Font)              using `T2A/cmr/m/n' instead on input line 76.
+
+[1
 
 {C:/Users/meDaddy/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 [2] (diploma.toc)
@@ -998,50 +1021,101 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout4 = `diploma.toc'.
 
  [3] [4] [5] [6]
+Overfull \hbox (15.92949pt too wide) in paragraph at lines 134--135
+[]\T2A/cmr/m/up/14.4 —путники непре-рыв-но пе-ре-да-ют сиг-на-лы на двух ча-сто
+-тах: $\OML/cmm/m/it/14.4 f[] \OT1/cmr/m/n/14.4 = 1575\OML/cmm/m/it/14.4 :\OT1/
+cmr/m/n/14.4 42[]$
+ []
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 183.
 
-[7] [8] (diploma.aux)
+Overfull \hbox (6.19203pt too wide) in paragraph at lines 138--139
+[]\T2A/cmr/m/up/14.4 P-код - это за-щи-щен-ный код. „а-сто-та сле-до-ва-ни€ име
+-ет зна-че-ние $\OT1/cmr/m/n/14.4 10\OML/cmm/m/it/14.4 :\OT1/cmr/m/n/14.4 23[]$
+
+ []
+
+[7] [8]
+Overfull \hbox (1.24628pt too wide) in paragraph at lines 165--179
+ [] 
+ []
+
+[9]
+<pics/pic1.png, id=51, 985.43156pt x 616.55344pt>
+File: pics/pic1.png Graphic file (type png)
+<use pics/pic1.png>
+Package pdftex.def Info: pics/pic1.png  used on input line 197.
+(pdftex.def)             Requested size: 486.25761pt x 304.23999pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[10] [11 <./pics/pic1.png>] [12]
+Overfull \hbox (6.07767pt too wide) in paragraph at lines 259--260
+[]\T2A/cmr/m/up/14.4 »з по-след-не-го вы-ра-же-ни€ мож-но по-лу-чить фор-му-лу 
+дл€ опре-де-ле-ни€ ѕЁ—: 
+ []
+
+[13]
+<pics/pic2.png, id=68, 803.25093pt x 566.115pt>
+File: pics/pic2.png Graphic file (type png)
+<use pics/pic2.png>
+Package pdftex.def Info: pics/pic2.png  used on input line 299.
+(pdftex.def)             Requested size: 486.25761pt x 342.71227pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[14] [15 <./pics/pic2.png>]
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
+316.
+
+("C:\Users\meDaddy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cyrillic\t2acmtt
+.fd"
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+) [16] (diploma.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 Package logreq Info: Writing requests to 'diploma.run.xml'.
 \openout1 = `diploma.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 14520 strings out of 480930
- 247245 string characters out of 2898824
- 947312 words of memory out of 3000000
- 30137 multiletter control sequences out of 15000+200000
- 549325 words of font info for 64 fonts, out of 3000000 for 9000
+ 15154 strings out of 480930
+ 260916 string characters out of 2898824
+ 944869 words of memory out of 3000000
+ 30753 multiletter control sequences out of 15000+200000
+ 548848 words of font info for 59 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,16n,40p,1483b,1691s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,16n,46p,1483b,1695s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\meDaddy\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\
-larm0800.pk> <C:\Users\meDaddy\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t
-2a/dpi600\larm0600.pk> <C:\Users\meDaddy\AppData\Local\MiKTeX\2.9\fonts/pk/ljfo
-ur/lh/lh-t2a/dpi600\larm0700.pk> <C:\Users\meDaddy\AppData\Local\MiKTeX\2.9\fon
-ts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\meDaddy\AppData\Local\Mi
-KTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\meDaddy\AppDat
-a\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\meDa
-ddy\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\
-Users\meDaddy\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx100
-0.pk> <C:\Users\meDaddy\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi6
-00\labx1728.pk> <C:\Users\meDaddy\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/l
-h-t2a/dpi600\labx0900.pk> <C:\Users\meDaddy\AppData\Local\MiKTeX\2.9\fonts/pk/l
-jfour/lh/lh-t2a/dpi600\larm0900.pk><C:/Users/meDaddy/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/meDaddy/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/meDa
-ddy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb>
-<C:/Users/meDaddy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmmi8.pfb><C:/Users/meDaddy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmr10.pfb><C:/Users/meDaddy/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/meDaddy/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/meDaddy/AppData
-/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/
-meDaddy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.
-pfb>
-Output written on diploma.pdf (8 pages, 220625 bytes).
+latt1440.pk> <C:\Users\meDaddy\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t
+2a/dpi600\lacc1440.pk> <C:\Users\meDaddy\AppData\Local\MiKTeX\2.9\fonts/pk/ljfo
+ur/lh/lh-t2a/dpi600\lati1440.pk> <C:\Users\meDaddy\AppData\Local\MiKTeX\2.9\fon
+ts/pk/ljfour/lh/lh-t2a/dpi600\larm0700.pk> <C:\Users\meDaddy\AppData\Local\MiKT
+eX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\meDaddy\AppData\
+Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk> <C:\Users\meDa
+ddy\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\
+Users\meDaddy\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx207
+4.pk> <C:\Users\meDaddy\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi6
+00\larm1440.pk> <C:\Users\meDaddy\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/l
+h-t2a/dpi600\labx1440.pk> <C:\Users\meDaddy\AppData\Local\MiKTeX\2.9\fonts/pk/l
+jfour/lh/lh-t2a/dpi600\labx2488.pk> <C:\Users\meDaddy\AppData\Local\MiKTeX\2.9\
+fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\meDaddy\AppData\Local\M
+iKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk><C:/Users/meDaddy/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users
+/meDaddy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi1
+0.pfb><C:/Users/meDaddy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmmi12.pfb><C:/Users/meDaddy/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/meDaddy/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/meDaddy/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/meDadd
+y/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:
+/Users/meDaddy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb>
+Output written on diploma.pdf (16 pages, 619361 bytes).
 PDF statistics:
- 474 PDF objects out of 1000 (max. 8388607)
+ 624 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

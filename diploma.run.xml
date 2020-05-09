@@ -80,7 +80,7 @@
       <file>diploma.bcf</file>
     </requires>
     <requires type="editable">
-      <file>bibleograf.bib</file>
+      <file>books.bib</file>
     </requires>
   </external>
 </requests>
