@@ -19,4 +19,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {1.5.2}Определение ПЭС по кодовым измерениям псевдодальности}{13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.5.3}Преобразование наклонного ПЭС в вертикальное}{14}%
+\contentsline {subsubsection}{\numberline {1.5.3}Преобразование наклонного ПЭС в вертикальное}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.5.4}Дифференциальные кодовые задержки}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Исследовательская работа}{16}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Обработка данных со станций GNSS}{16}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}Вычисление наклонного ПЭС по групповым и фазовым измерениям}{17}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3}Оценка вертикального значения ПЭС}{18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4}Нахождение пространственных и временных зависимостей измерения ПЭС}{20}%
