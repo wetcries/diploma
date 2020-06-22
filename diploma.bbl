@@ -216,6 +216,27 @@
       \field{title}{Ionospheric time-delay algorithm for single-frequency GPS users}
       \field{year}{1986}
     \endentry
+    \entry{milnikova}{booklet}{}
+      \name{author}{1}{}{%
+        {{hash=b623c84d2a3ca87265070d4b24746ad4}{%
+           family={А.А.},
+           familyi={А\bibinitperiod},
+           given={Мыльникова},
+           giveni={М\bibinitperiod}}}%
+      }
+      \strng{namehash}{b623c84d2a3ca87265070d4b24746ad4}
+      \strng{fullhash}{b623c84d2a3ca87265070d4b24746ad4}
+      \strng{bibnamehash}{b623c84d2a3ca87265070d4b24746ad4}
+      \strng{authorbibnamehash}{b623c84d2a3ca87265070d4b24746ad4}
+      \strng{authornamehash}{b623c84d2a3ca87265070d4b24746ad4}
+      \strng{authorfullhash}{b623c84d2a3ca87265070d4b24746ad4}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Восстановление абсолютного значения, пространственных градиентов и временной призводной полного электронного содержания по данным GPS/ГЛОНАСС}
+      \field{year}{2017}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

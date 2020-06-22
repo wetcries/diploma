@@ -1,11 +1,31 @@
-\documentclass[14pt]{article}
+\documentclass[a4paper]{article}
+
+\renewcommand{\rmdefault}{ftm} % Times New Roman
+\usepackage[12pt]{extsizes} % для того чтобы задать нестандартный 12-ый размер шрифта
+
+\renewcommand{\scriptsize}{\fontsize{14}{14pt}\selectfont}
+\usepackage{titlesec}
+\titleformat{\section}
+    {\normalsize\scriptsize\bfseries}
+    {\thesection}
+    {1em}{\scriptsize\bfseries}   
+\titleformat{\subsection}
+    {\normalsize\scriptsize\bfseries}
+    {\thesubsection}
+    {1em}{\scriptsize\bfseries}
+\titleformat{\subsubsection}
+    {\normalsize\scriptsize\bfseries}
+    {\thesubsubsection}
+    {1em}{\scriptsize\bfseries}
 
 \usepackage{extsizes}
 \usepackage{physics}
 \usepackage{latexsym} 
 \usepackage[left=30mm, top=20mm, right=15mm, bottom=20mm]{geometry}
 \usepackage{indentfirst}
-
+\setlength{\parindent}{1.25cm}
+\usepackage{lscape}
+\usepackage{float}
 %%% Дополнительная работа с математикой
 \usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools} % AMS
 \usepackage{icomma} % "Умная" запятая: $0,2$ --- число, $0, 2$ 
@@ -37,6 +57,11 @@
 
 \linespread{1.3}
 %\pagestyle{plain}
+
+%для замены двоеточия на тире после номера рисунка и таблицы 
+\usepackage{ccaption}
+% заменяем для рисунков ':' после номера рисунка на '.'
+\captiondelim{ -- } % после точки стоит пробел!
 
 % biber
 \usepackage[backend=biber,style=numeric,sorting=none]{biblatex}
@@ -90,6 +115,7 @@
 
 \newpage
 \section*{Аннотация}
+
 \subsection*{Цели и задачи}
 Целью данной работы является получение пространственно-временного распределения полного электронного содержания во время солнечной вспышки 10 сентября 2017 года.\\
 
@@ -103,6 +129,7 @@
 \end{itemize}
 
 \subsection*{Полученные результаты}
+Результатами являются подтверждение работоспособности метода вычисление значения полного электронного содержания, представленного в данной работе, верификация данных, полученных этим методом, и получение пространственно-временных зависимостей изменения абсолютного значения полного электронного содержания вследствие воздействия солнечной вспышки, подтверждающих влияние вспышек на состояние ионосферы.
 
 \newpage
 \tableofcontents
@@ -306,7 +333,7 @@ I = \frac{1}{40.308} \frac{f_1^2 f_2^2}{f_1^2 - f_2^2} \left[ \left( P_2 - P_1 \
 
 \begin{figure}[h]
 \centering
-\includegraphics[width = 0.6\linewidth]{pics/pic2.png}
+\includegraphics[width = 1\linewidth]{pics/pic2.png}
 \caption{Зашумленность ПЭС, вычисленного по данным измерений группового (кривые <<FFMJ>>, <<LEIJ>> и <<PTBB>>) и фазового (кривая <<Phase>>) запаздывания сигналов GPS \cite{kozharin}.}
 \label{pic2}
 \end{figure}
@@ -338,6 +365,8 @@ I_{BIAS} = -\frac{f_1^2 f_2^2}{f_1^2 - f_2^2} \frac{1}{40.308} c\Delta \tau,
 
 Также предполагается, что значение ДКЗ не изменяется в течение суток.
 
+
+\newpage
 \section{Исследовательская работа}
 \subsection{Обработка данных со станций GNSS}
  GNSS станции записывают данные, получаемые со спутника, используя специальный формат записи RINEX (Receiver Independent Exchange Format).
@@ -348,13 +377,13 @@ I_{BIAS} = -\frac{f_1^2 f_2^2}{f_1^2 - f_2^2} \frac{1}{40.308} c\Delta \tau,
   
 \begin{figure}[h!]
 \centering
-\includegraphics[width = 0.6\linewidth]{pics/rinex_obs.png}
+\includegraphics[width = 1\linewidth]{pics/rinex_obs.png}
 \caption{Пример данных наблюдения для формата RINEX 2.1}
 \end{figure}
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width = 0.6\linewidth]{pics/rinex_nav.png}
+\includegraphics[width = 1\linewidth]{pics/rinex_nav.png}
 \caption{Пример данных навигационного сообщения для формата RINEX 2.1}
 \end{figure}
 
@@ -378,13 +407,14 @@ I_{m} = I_{\varphi} + \frac{1}{N}\sum_{i=1}^N (I_p - I_{\varphi}),
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width = 1\linewidth]{pics/stec.png}
+\includegraphics[width = 1\linewidth]{pics/clean_pics/stec.png}
 \caption{Вычисленные значения ПЭС по кодовым и фазовым измерениям с учетом фазовой неоднозначности.}
 \label{stecplot}
 \end{figure}
 
 Стоит отметить, что значения ПЭС, которые представлены на рисунке \ref{stecplot}, уже учитывают влияние дифференциальных кодовых задержек.
 
+\newpage
 \subsection{Оценка вертикального значения ПЭС}
 Для вычисления вертикального значения полного электронного содержания используется модель, предложенная в работе Мыльниковой А.А. \cite{milnikova}.
 
@@ -411,19 +441,107 @@ I_m = \frac{1}{S} \left[ I_v(\phi_0, l_0, t_0) + G_{\phi} \Delta\phi + G_l \Delt
 I_{BIAS\_SAT}^i = I_{BIAS}^i - \frac{\sum_{i=1}^{N}I_{BIAS}^i}{N}.
 \end{equation}
 
-где $N$ - число спутников, $I_{BIAS}^i$ - полученное значение ДКЗ из системы уравнений.
+где $N$ - число спутников, $I_{BIAS}^i$ - полученное значение ДКЗ из системы уравнений для $i$-го спутника.
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width = 0.8\linewidth]{pics/solved_tec.png}
+\includegraphics[width = 1\linewidth]{pics/clean_pics/tec_madrigal.png}
 \caption{Значение вертикального ПЭС, полученное решением системы уравнений.}
 \label{solvedtec}
 \end{figure}
 
-ВСТАВИТЬ ИЗОБРАЖЕНИЕ ДЛЯ ДКЗ 
-
 
 \subsection{Нахождение пространственных и временных зависимостей измерения ПЭС}
+В рамках данной работы исследовалось поведение вариаций полного электронного содержания во время солнечной вспышки 10 сентября 2017 года. Данная вспышка имела класс активности X с индексом 9.8 баллов. Выброс произошел в районе 16 часов по UTC.
+
+Для анализа влияния солнечной вспышки на ПЭС были выбраны станции, которые находились под освещением Солнца. Данные брались из открытых источников, а именно с сайта EUREF\footnote{Regional Reference Frame Sub-Commission for Europe.}.
+
+Влияние солнечной вспышки можно оценить, сравнивая значение вычисленного ПЭС с изменением зенитного угла Солнца (Рисунок \ref{tecsun}). 
+
+\begin{figure}[h]
+\centering
+\includegraphics[width = 1\linewidth]{pics/clean_pics/tec_sun.png}
+\caption{Зависимость полного электронного содержания от значения зенитного угла Солнца для станции dent}
+\label{tecsun}
+\end{figure} 
+
+Данный график демонстрирует, что в начале дня значение полного электронного содержания изменяется пропорционально значению зенитного угла Солнца. Но в районе 16 часов эта пропорциональность смещается во времени из-за влияния солнечной вспышки. 
+
+Далее предлагается рассмотреть значения ПЭС для станций, находящихся в Европе, чтобы найти пространственную зависимость изменения ПЭС, возникающую из-за солнечной вспышки. 
+
+Для каждой из станций, с помощью описанного выше метода, было вычислено значение полного электронного содержания и его вариаций. На рисунке \ref{dtec15} показаны значения производной ПЭС для некоторых станций во время солнечной вспышки.
+
+\begin{landscape}
+\begin{figure}[h!]
+\centering
+\includegraphics[width = 1\linewidth]{pics/clean_pics/stations.png}
+\caption{Расположение выбранных станций.}
+\end{figure}
+\end{landscape}
+
+
+
+\begin{landscape}
+\begin{figure}[h!]
+\centering
+\includegraphics[width = 0.85\linewidth]{pics/clean_pics/dtec15.png}
+\caption{Зависимость временной производной ПЭС во время солнечной вспышки для станций с различным зенитным углом Солнца.}
+\label{dtec15}
+\end{figure}
+\end{landscape}
+
+На рисунке \ref{dtecsun} приведены пиковые значения временной производной полного электронного содержания для всех выбранных станций.
+
+Полученные значения производных зависят от зенитного угла Солнца. Это и логично, ведь чем выше находится Солнце, тем более сильно освещена данная территория, и влияние вспышки имеет наибольшее воздействие на состояние ионосферы.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width = 1\linewidth]{pics/clean_pics/dtec_elev.png}
+\caption{Зависимость пикового значения временной производной ПЭС от угла возвышения Солнца во время солнечной вспышки.}
+\label{dtecsun}
+\end{figure}
+
+Также можно рассмотреть изменение пикового значения производной в зависимости от изменения координаты широты или долготы. На рисунках \ref{dteclat} и \ref{dteclon} приведены результаты для выбранных станций.
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width = 1\linewidth]{pics/clean_pics/latStations.png}
+\caption{Выбранные станция для широты}
+\label{stationslat}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width = 1\linewidth]{pics/clean_pics/dtec_lat.png}
+\caption{Зависимость пикового значения временной производной от изменения координаты широты.}
+\label{dteclat}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width = 1\linewidth]{pics/clean_pics/lonStations.png}
+\caption{Выбранные станции для долготы}
+\label{stationslon}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width = 1\linewidth]{pics/clean_pics/dtec_lon.png}
+\caption{Зависимость пикового значения временной производной от изменения координаты долготы.}
+\label{dteclon}
+\end{figure}
+
+Если рассматривать зависимость от изменения координаты широты, то можно заметить рост значения производной при приближении к экватору. Это связано с тем, что станции, расположенные ближе к экватору, сильнее освещены из-за ориентации Земли.
+
+При рассмотрении зависимости от изменения координаты долготы, виден рост значения производной при проходе от востока к западу, что можно связать с тем, что планета повернута к Солнцу станциями, которые находятся западнее остальных.
+
+Полученные данные свидетельствуют о том, что солнечная вспышка имела влияние на состояние ионосферы. Основное воздействие происходило на территориях, которые были наиболее освещены Солнцем. 
+
+
+\newpage
+\section{Заключение}
+В данной работе было рассмотрено влияние солнечной вспышки на значение величины полного электронного содержания. В ходе выполнения работы: был освоен алгоритм расчета абсолютного значения ПЭС, а также пространственно-временных градиентов ПЭС первого и второго порядка по данным приемника ГНСС, расположенного в ГФО "Михнево"; была проведена верификация полученных результатов с данными мировых сетей, которая свидетельствует о том, что данный метод можно считать достоверным; было получено пространственно-временное распределение вариации ПЭС во время солнечной вспышки, свидетельствующее о том, что высокая солнечная активность влияет на состояние ионосферы.
 
 
 \newpage
