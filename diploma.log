@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.5)  24 JUN 2020 22:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.5)  29 JUN 2020 15:26
 entering extended mode
 **./diploma.tex
 (diploma.tex
@@ -1095,162 +1095,165 @@ LaTeX Font Warning: Font shape `OT1/ftm/m/n' undefined
 \tf@toc=\write4
 \openout4 = `diploma.toc'.
 
- [3] [4] [5] [6]
-Overfull \hbox (9.8761pt too wide) in paragraph at lines 181--182
+ [3] [4] [5]
+Overfull \hbox (9.8761pt too wide) in paragraph at lines 193--194
 []\T2A/ftm/m/up/12 —егмент управ-ле-ни€ осу-ществ-л€-ет сле-же-ние за ор-би-тал
 ь-ны-ми ап-па-ра-та-ми и управ-
  []
 
-[7] [8] [9]
-<pics/pic1.png, id=52, 985.43156pt x 616.55344pt>
+[6] [7] [8]
+<pics/pic1.png, id=49, 985.43156pt x 616.55344pt>
 File: pics/pic1.png Graphic file (type png)
 <use pics/pic1.png>
-Package pdftex.def Info: pics/pic1.png  used on input line 239.
+Package pdftex.def Info: pics/pic1.png  used on input line 251.
 (pdftex.def)             Requested size: 469.47049pt x 293.73145pt.
- [10 <./pics/pic1.png>] [11] [12]
-<pics/pic2.png, id=65, 803.25093pt x 566.115pt>
+ [9 <./pics/pic1.png>] [10] [11]
+<pics/pic2.png, id=62, 803.25093pt x 566.115pt>
 File: pics/pic2.png Graphic file (type png)
 <use pics/pic2.png>
-Package pdftex.def Info: pics/pic2.png  used on input line 342.
+Package pdftex.def Info: pics/pic2.png  used on input line 354.
 (pdftex.def)             Requested size: 469.47049pt x 330.87791pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[13] [14 <./pics/pic2.png>]
-<pics/rinex_obs.png, id=75, 404.26031pt x 280.79906pt>
+[12] [13 <./pics/pic2.png>]
+<pics/rinex_obs.png, id=72, 404.26031pt x 280.79906pt>
 File: pics/rinex_obs.png Graphic file (type png)
 <use pics/rinex_obs.png>
-Package pdftex.def Info: pics/rinex_obs.png  used on input line 386.
+Package pdftex.def Info: pics/rinex_obs.png  used on input line 399.
 (pdftex.def)             Requested size: 469.47049pt x 326.0999pt.
-<pics/rinex_nav.png, id=76, 404.26031pt x 280.79906pt>
+<pics/rinex_nav.png, id=73, 404.26031pt x 280.79906pt>
 File: pics/rinex_nav.png Graphic file (type png)
 <use pics/rinex_nav.png>
-Package pdftex.def Info: pics/rinex_nav.png  used on input line 392.
+Package pdftex.def Info: pics/rinex_nav.png  used on input line 405.
 (pdftex.def)             Requested size: 469.47049pt x 326.0999pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[15 <./pics/rinex_obs.png>] [16 <./pics/rinex_nav.png>]
-<pics/clean_pics/stec.png, id=83, 421.575pt x 316.18124pt>
+[14 <./pics/rinex_obs.png>] [15 <./pics/rinex_nav.png>]
+<pics/clean_pics/stec.png, id=80, 421.575pt x 316.18124pt>
 File: pics/clean_pics/stec.png Graphic file (type png)
 <use pics/clean_pics/stec.png>
-Package pdftex.def Info: pics/clean_pics/stec.png  used on input line 417.
+Package pdftex.def Info: pics/clean_pics/stec.png  used on input line 430.
 (pdftex.def)             Requested size: 469.47049pt x 352.10873pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[17
+[16
 
-] [18 <./pics/clean_pics/stec.png (PNG copy)>]
-Overfull \hbox (12.56087pt too wide) in paragraph at lines 442--443
-[]\T2A/ftm/m/up/12 ¬ерность дан-но-го ре-ше-ни€ мож-но под-твер-дить, све-рив е
-го с дан-ны-ми MADRIGAL[].
+] [17 <./pics/clean_pics/stec.png (PNG copy)>]
+Overfull \hbox (12.23166pt too wide) in paragraph at lines 453--454
+\T2A/ftm/m/up/12 ѕЁ— по по-стро-ен-ной си-сте-ме дл€ стан-ции dent и их ве-ри-ф
+и-ка-ци€ по дан-ным MADRIGAL[]. 
  []
 
-[19
+[18
 
 ]
-<pics/clean_pics/tec_madrigal.png, id=94, 772.5663pt x 455.0601pt>
+<pics/clean_pics/tec_madrigal.png, id=90, 772.5663pt x 455.0601pt>
 File: pics/clean_pics/tec_madrigal.png Graphic file (type png)
 <use pics/clean_pics/tec_madrigal.png>
 Package pdftex.def Info: pics/clean_pics/tec_madrigal.png  used on input line 4
-57.
+70.
 (pdftex.def)             Requested size: 731.23584pt x 430.71455pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[20 <./pics/clean_pics/tec_madrigal.png (PNG copy)>]
-<pics/clean_pics/tec_sun.png, id=98, 561.41745pt x 421.0932pt>
+[19 <./pics/clean_pics/tec_madrigal.png (PNG copy)>]
+<pics/clean_pics/tec_sun.png, id=95, 561.41745pt x 421.0932pt>
 File: pics/clean_pics/tec_sun.png Graphic file (type png)
 <use pics/clean_pics/tec_sun.png>
-Package pdftex.def Info: pics/clean_pics/tec_sun.png  used on input line 474.
+Package pdftex.def Info: pics/clean_pics/tec_sun.png  used on input line 487.
 (pdftex.def)             Requested size: 469.47049pt x 352.1288pt.
- [21
+ [20
 
 
 
- <./pics/clean_pics/tec_sun.png (PNG copy)>] [22]
-<pics/clean_pics/stations.png, id=105, 772.5663pt x 455.0601pt>
+ <./pics/clean_pics/tec_sun.png (PNG copy)>] [21]
+<pics/clean_pics/stations.png, id=102, 772.5663pt x 455.0601pt>
 File: pics/clean_pics/stations.png Graphic file (type png)
 <use pics/clean_pics/stations.png>
-Package pdftex.def Info: pics/clean_pics/stations.png  used on input line 489.
+Package pdftex.def Info: pics/clean_pics/stations.png  used on input line 503.
 (pdftex.def)             Requested size: 731.23584pt x 430.71455pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[23 <./pics/clean_pics/stations.png (PNG copy)>]
-<pics/clean_pics/dtec15.png, id=109, 586.3506pt x 808.9422pt>
+[22 <./pics/clean_pics/stations.png (PNG copy)>]
+<pics/clean_pics/dtec15.png, id=106, 586.3506pt x 808.9422pt>
 File: pics/clean_pics/dtec15.png Graphic file (type png)
 <use pics/clean_pics/dtec15.png>
-Package pdftex.def Info: pics/clean_pics/dtec15.png  used on input line 500.
+Package pdftex.def Info: pics/clean_pics/dtec15.png  used on input line 514.
 (pdftex.def)             Requested size: 469.47049pt x 647.69775pt.
- [24
+ [23
 
 
  <./pics/clean_pics/dtec15.png (PNG copy)>]
-<pics/clean_pics/dtec_elev.png, id=113, 561.41745pt x 421.0932pt>
+<pics/clean_pics/dtec_elev.png, id=110, 561.41745pt x 421.0932pt>
 File: pics/clean_pics/dtec_elev.png Graphic file (type png)
 <use pics/clean_pics/dtec_elev.png>
-Package pdftex.def Info: pics/clean_pics/dtec_elev.png  used on input line 514.
+Package pdftex.def Info: pics/clean_pics/dtec_elev.png  used on input line 530.
 
-(pdftex.def)             Requested size: 469.47049pt x 352.1288pt.
+(pdftex.def)             Requested size: 422.52057pt x 316.91785pt.
 
-Overfull \hbox (16.72435pt too wide) in paragraph at lines 521--522
+Overfull \hbox (16.72435pt too wide) in paragraph at lines 537--540
 []\T2A/ftm/m/up/12 ƒл€ рас-смот-ре-ни€ про-стран-ствен-но-го рас-пре-де-ле-ни€ 
 воз-дей-стви€ сол-неч-ной вспыш-
  []
 
-[25
+[24
 
  <./pics/clean_pics/dtec_elev.png (PNG copy)>]
-<pics/clean_pics/latStations.png, id=118, 561.41745pt x 409.7709pt>
+<pics/clean_pics/latStations.png, id=114, 561.41745pt x 409.7709pt>
 File: pics/clean_pics/latStations.png Graphic file (type png)
 <use pics/clean_pics/latStations.png>
-Package pdftex.def Info: pics/clean_pics/latStations.png  used on input line 52
-9.
+Package pdftex.def Info: pics/clean_pics/latStations.png  used on input line 54
+7.
 (pdftex.def)             Requested size: 375.57782pt x 274.1324pt.
-<pics/clean_pics/dtec_lat.png, id=119, 561.41745pt x 421.0932pt>
+<pics/clean_pics/dtec_lat.png, id=115, 561.41745pt x 421.0932pt>
 File: pics/clean_pics/dtec_lat.png Graphic file (type png)
 <use pics/clean_pics/dtec_lat.png>
-Package pdftex.def Info: pics/clean_pics/dtec_lat.png  used on input line 538.
+Package pdftex.def Info: pics/clean_pics/dtec_lat.png  used on input line 556.
 (pdftex.def)             Requested size: 375.57782pt x 281.7069pt.
- [26
+ [25
 
  <./pics/clean_pics/latStations.png (PNG copy)> <./pics/clean_pics/dtec_lat.png
  (PNG copy)>]
-<pics/clean_pics/lonStations.png, id=123, 561.41745pt x 409.7709pt>
+<pics/clean_pics/lonStations.png, id=120, 561.41745pt x 409.7709pt>
 File: pics/clean_pics/lonStations.png Graphic file (type png)
 <use pics/clean_pics/lonStations.png>
-Package pdftex.def Info: pics/clean_pics/lonStations.png  used on input line 55
-4.
+Package pdftex.def Info: pics/clean_pics/lonStations.png  used on input line 57
+2.
 (pdftex.def)             Requested size: 375.57782pt x 274.1324pt.
-<pics/clean_pics/dtec_lon.png, id=124, 561.41745pt x 421.0932pt>
+<pics/clean_pics/dtec_lon.png, id=121, 561.41745pt x 421.0932pt>
 File: pics/clean_pics/dtec_lon.png Graphic file (type png)
 <use pics/clean_pics/dtec_lon.png>
-Package pdftex.def Info: pics/clean_pics/dtec_lon.png  used on input line 561.
+Package pdftex.def Info: pics/clean_pics/dtec_lon.png  used on input line 579.
 (pdftex.def)             Requested size: 375.57782pt x 281.7069pt.
- [27 <./pics/clean_pics/lonStations.png (PNG copy)>] [28 <./pics/clean_pics/dte
-c_lon.png (PNG copy)>] [29
+ [26 <./pics/clean_pics/lonStations.png (PNG copy)>] [27 <./pics/clean_pics/dte
+c_lon.png (PNG copy)>] [28
 
 ]
 
 LaTeX Font Warning: Font shape `T2A/ftm/m/it' undefined
-(Font)              using `T2A/ftm/m/n' instead on input line 595.
+(Font)              using `T2A/ftm/m/n' instead on input line 613.
 
 LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-595.
+613.
 
 ("C:\Users\meDaddy\AppData\Local\Programs\MiKTeX 2.9\tex/latex/cyrillic\t2acmtt
 .fd"
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-) [30] (diploma.aux)
+) [29] (diploma.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package logreq Info: Writing requests to 'diploma.run.xml'.
 \openout1 = `diploma.run.xml'.
@@ -1259,11 +1262,11 @@ Package logreq Info: Writing requests to 'diploma.run.xml'.
 Here is how much of TeX's memory you used:
  15837 strings out of 480930
  271112 string characters out of 2898824
- 960836 words of memory out of 3000000
+ 960835 words of memory out of 3000000
  31388 multiletter control sequences out of 15000+200000
  547203 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,16n,46p,1483b,1693s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,16n,46p,1483b,1691s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\meDaddy\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\
 latt1200.pk> <C:\Users\meDaddy\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t
 2a/dpi600\larm1000.pk> <C:\Users\meDaddy\AppData\Local\MiKTeX\2.9\fonts/pk/ljfo
@@ -1288,9 +1291,9 @@ al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/meDadd
 y/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
 C:/Users/meDaddy/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmsy8.pfb>
-Output written on diploma.pdf (30 pages, 8342171 bytes).
+Output written on diploma.pdf (29 pages, 8341128 bytes).
 PDF statistics:
- 560 PDF objects out of 1000 (max. 8388607)
+ 556 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
